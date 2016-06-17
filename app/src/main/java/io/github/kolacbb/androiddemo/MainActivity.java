@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import io.github.kolacbb.androiddemo.AndroidHeros.CustomViewListActivity;
 import io.github.kolacbb.androiddemo.AndroidHeros.MeasureViewActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -38,6 +39,8 @@ public class MainActivity extends AppCompatActivity {
                     case 0:
                         startActivity(new Intent(MainActivity.this, MeasureViewActivity.class));
                         break;
+                    case 1:
+                        startActivity(new Intent(MainActivity.this, CustomViewListActivity.class));
                 }
             }
         });

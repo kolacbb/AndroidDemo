@@ -15,7 +15,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".AndroidHeros.MeasureViewActivity"></activity>
+        <activity android:name=".AndroidHeros.MeasureViewActivity" />
+        <activity android:name=".AndroidHeros.CustomViewListActivity" />
+        <activity android:name=".AndroidHeros.CustomView.CustomViewExpandActivity" />
+        <activity android:name=".AndroidHeros.CustomView.CustomViewMergerActivity" />
+        <activity android:name=".AndroidHeros.CustomView.CustomViewNewActivity"></activity>
     </application>
 
 </manifest>
