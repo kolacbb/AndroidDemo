@@ -8,6 +8,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.ListView;
 
+import io.github.kolacbb.androiddemo.AndroidArtExplore.MessagePrincipal.HandlerActivity;
 import io.github.kolacbb.androiddemo.AndroidHeros.CustomViewListActivity;
 import io.github.kolacbb.androiddemo.AndroidHeros.MeasureViewActivity;
 
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     ListView listView;
     ArrayAdapter<String> arrayAdapter;
-    String[] listItem = new String[]{"Measure View", "Custom View"};
+    String[] listItem = new String[]{"Measure View", "Custom View", "Handler"};
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -41,6 +42,10 @@ public class MainActivity extends AppCompatActivity {
                         break;
                     case 1:
                         startActivity(new Intent(MainActivity.this, CustomViewListActivity.class));
+                        break;
+                    case 2:
+                        startActivity(new Intent(MainActivity.this, HandlerActivity.class));
+                        break;
                 }
             }
         });

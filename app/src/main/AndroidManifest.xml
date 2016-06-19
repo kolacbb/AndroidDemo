@@ -19,7 +19,8 @@
         <activity android:name=".AndroidHeros.CustomViewListActivity" />
         <activity android:name=".AndroidHeros.CustomView.CustomViewExpandActivity" />
         <activity android:name=".AndroidHeros.CustomView.CustomViewMergerActivity" />
-        <activity android:name=".AndroidHeros.CustomView.CustomViewNewActivity"></activity>
+        <activity android:name=".AndroidHeros.CustomView.CustomViewNewActivity" />
+        <activity android:name=".AndroidArtExplore.MessagePrincipal.HandlerActivity"></activity>
     </application>
 
 </manifest>
