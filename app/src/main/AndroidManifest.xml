@@ -9,18 +9,20 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity android:name=".MainActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
         <activity android:name=".AndroidHeros.MeasureViewActivity" />
         <activity android:name=".AndroidHeros.CustomViewListActivity" />
         <activity android:name=".AndroidHeros.CustomView.CustomViewExpandActivity" />
         <activity android:name=".AndroidHeros.CustomView.CustomViewMergerActivity" />
         <activity android:name=".AndroidHeros.CustomView.CustomViewNewActivity" />
-        <activity android:name=".AndroidArtExplore.MessagePrincipal.HandlerActivity"></activity>
+        <activity android:name=".AndroidArtExplore.MessagePrincipal.HandlerActivity" />
+        <activity android:name=".ViewTestActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
     </application>
 
 </manifest>

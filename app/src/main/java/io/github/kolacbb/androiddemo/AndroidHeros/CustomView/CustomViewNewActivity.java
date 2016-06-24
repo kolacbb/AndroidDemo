@@ -231,7 +231,7 @@ public class CustomViewNewActivity extends AppCompatActivity {
             //自定义View的宽高比例
             mRatio = 450.f / 525.f;
             //初始化一些默认的参数
-            mBackgroundCorner = ViewUtils.dp2px(mContext, 5);
+//            mBackgroundCorner = ViewUtils.dp2px(mContext, 5);
             mDefaultThemeColor = Color.parseColor("#2EC3FD");
             mDefaultUpBackgroundColor = Color.WHITE;
             mThemeColor = mDefaultThemeColor;
